@@ -14,3 +14,26 @@ pip install natsort opencv-python einops ptflops lmdb tqdm scikit-image warmup_s
 
 ## Dataset 
 - Download deblur dataset: [GoPro](https://seungjunnah.github.io/Datasets/gopro.html), [HIDE](https://github.com/joanshen0508/HA_deblur?tab=readme-ov-file), [REDS](https://seungjunnah.github.io/Datasets/reds.html), [RealBlur](https://cg.postech.ac.kr/research/realblur/), [RSBlur](https://cg.postech.ac.kr/research/rsblur/), [ReLoBlur](https://leiali.github.io/ReLoBlur_homepage/index.html).
+
+- - Preprocess data folder. The data folder should be like the format:
+  
+├─ test  ## GoPro/ HIDE / REDS / RealBlur / RSBlur /ReLoBlur.
+
+│ ├─ input      &emsp;&emsp; 
+
+│ │ ├─ xxxx.png
+
+│ │ ├─ ......
+
+│ │
+
+│ ├─ target
+
+│ │ ├─ xxxx.png
+
+│ │ ├─ ......
+
+│
+├─ train   ## GOPRO / Blur Mix
+
+│ ├─ ...... (same as test)

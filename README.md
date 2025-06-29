@@ -34,6 +34,6 @@ pip install natsort opencv-python einops ptflops lmdb tqdm scikit-image warmup_s
 │ │ ├─ ......
 
 │
-├─ train   ## GOPRO / Blur Mix
+├─ train   ## GoPro / Blur Mix
 
 │ ├─ ...... (same as test)
